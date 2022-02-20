@@ -7,7 +7,7 @@ setTimeout(() => {
 console.log(__dirname);
 console.log(__filename);
 
-var a = 10;
+const a = 10;
 
 function test() {
     console.log('I am test');
@@ -16,8 +16,8 @@ function test() {
 // console.log(global.a);
 // global.test();
 
-console.log(module)
+console.log(module);
 
-const math = require('./math')
+const math = require('./math');
 
-console.log(math.add(1, 2))
+console.log(math.add(1, 2));
